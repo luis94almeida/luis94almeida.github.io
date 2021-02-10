@@ -2,28 +2,172 @@
 <html>
 	<head>
 		<title>CV</title>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="style.css">
 	<!--   	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"> -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
-		
-<!--			type="text/css" -->
-		<!-- JavaScript Bundle with Popper 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-		-->
-		<!-- Option 2: Separate Popper and Bootstrap JS -->
-		<!--   
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
-		-->
+		  <!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 	</head>
 	<body>
 		<!-----Header Sction------>
 		<section id="header">
 			<div class="container text-center">
 				<div class="user-box">
-					<img src="img/user1.png">
+					<img src="img/user3.png">
+					<h1>Luís Almeida</h1>
+					<p>Eng Software</p>
+				</div>
+			</div>
+			<div class ="scroll-btn">
+				<div class ="scroll-bar"> <a href=""> <span> </span> </a>
+				</div>
+			</div>
+			
+		</section>
+		<section id="user-info">
+			<div class="nav-bar">
+			
+			<nav class="navbar navbar-dark bg-dark"> <!--navbar-light bg-light*/ --->
+				<!--<div class="container-fluid">--->
+				  <a class="navbar-brand" href="#"><img src="img/luis_almeida_3.png"></a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					<!--<i class="fas fa-bars"></i>--->
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+					 <li class="nav-item">
+						<a class="nav-link" href="#">HOME</a>
+					 <!-- <a class="nav-link active" aria-current="page" href="#">HOME</a>--->
+					 </li>
+					 <li class="nav-item">
+					  <a class="nav-link" href="#">ABOUT ME</a>
+					 </li>
+					<li class="nav-item">
+					 <a class="nav-link" href="#">RESUME</a>
+					</li>
+					<li class="nav-item">
+					 <a class="nav-link" href="#">SERVICES</a>
+					</li>
+					<li class="nav-item">
+					 <a class="nav-link" href="#">CONTACT</a>
+					</li>
+				<!--	<li class="nav-item">
+					 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">SERVICES</a>
+					</li>  -->
+					</ul>
+					</div>
+				<!--</div>--->
+			</nav>
+			</div>
+			<!--		ABOUT			  -->
+			<div class="about container" id="about">
+				<div class="row">
+				<div class="col-md-6 text-center">
+				<img src="img/user3.png" class="profile-img">
+				</div>
+				<div class="col-md-6">
+					<h3>WHO AM I ?</h3>
+					<p>
+					 bla bloa bloa bloaa. explicação de quem sou yolo
+					</p>
+					
+					<div class="skills-bar">
+						<p>C/C++ </p>
+						<div class="progress"> 
+							<div class="progress-bar" style="width: 80%;">
+								80%
+							</div>
+						</div>
+						<p>C# </p>
+						<div class="progress"> 
+							<div class="progress-bar" style="width: 85%;">
+								80%
+							</div>
+						</div>
+						<p>VBA </p>
+						<div class="progress"> 
+							<div class="progress-bar" style="width:75%;">
+								75%
+							</div>
+						</div>
+						<p>HTLM, CSS </p>
+						<div class="progress"> 
+							<div class="progress-bar" style="width: 50%;">
+								50%
+							</div>
+						</div>
+	
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--		Resume			  -->
+			<div class="resume" id="resume">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3 class="text-center">My Experiences</h3>
+							<ul class="timeline">
+								<li>
+									<h4><span>2018 - </span> a trabalhar numa fabrica e tal </h4>
+									<p>sajsajsaf.jfsajfsa <br>
+										<b> company</b> - s.rqoue <br>
+										<b> duration</b> - 1yr [2017 to 2018] <br>
+										<b> Location</b> - vila nova famalicao - pedome <br>
+									</p>
+								</li>
+								<li>
+									<h4><span>2017 - </span> a trabalhar numa fabrica e tal </h4>
+									<p>sajsajsaf.jfsajfsa <br>
+										<b> company</b> - s.rqoue <br>
+										<b> duration</b> - 1yr [2017 to 2018] <br>
+										<b> Location</b> - vila nova famalicao - pedome <br>
+									</p>
+								</li>
+								<li>
+									<h4><span>2016 - </span> a trabalhar numa fabrica e tal </h4>
+									<p>sajsajsaf.jfsajfsa <br>
+										<b> company</b> - s.rqoue <br>
+										<b> duration</b> - 1yr [2017 to 2018] <br>
+										<b> Location</b> - vila nova famalicao - pedome <br>
+									</p>
+								</li>
+								
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h3 class="text-center">My Education</h3>
+							<ul class="timeline">
+								<li>
+									<h4><span>2018 - </span> mestreeeeee ad aa </h4>
+									<p>sajsajsaf.jfsajfsa <br>
+										<b> Institute</b> - UM <br>
+										<b> duration</b> - 2017-2018] <br>
+										<b> aggregate </b> - 80% <br>
+									</p>
+								</li>
+								<li>
+									<h4><span>2017 - </span> çklkçl</h4>
+									<p>sajsajsaf.jfsajfsa <br>
+										<b> Institute</b> - UM <br>
+										<b> duration</b> - 2017-2018] <br>
+										<b> aggregate </b> - 80% <br>
+									</p>
+								</li>
+
+								
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
