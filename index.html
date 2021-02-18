@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+	<!--	<meta charset="UTF-8">   -->
 		<title>CV</title>
 		<link rel="stylesheet" href="style.css">
 	<!--   	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"> -->
@@ -14,21 +14,23 @@
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
+    
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		<link href="css/all.css" rel="stylesheet">-->
+		<script src="https://kit.fontawesome.com/3ced56407f.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<!-----Header Sction------>
 		<section id="header">
 			<div class="container text-center">
 				<div class="user-box">
-					<img src="img/user3.png">
+					<img src="img/user_la_3.png">
 					<h1>Luís Almeida</h1>
 					<p>Eng Software</p>
 				</div>
 			</div>
 			<div class ="scroll-btn">
-				<div class ="scroll-bar"> <a href=""> <span> </span> </a>
+				<div class ="scroll-bar"> <a href="#about"> <span> </span> </a>
 				</div>
 			</div>
 			
@@ -36,7 +38,7 @@
 		<section id="user-info">
 			<div class="nav-bar">
 			
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--navbar-light bg-light*/ --->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--"navbar navbar-dark bg-dark"-navbar-light bg-light*/ --->
 				<!--<div class="container-fluid">--->
 				  <a class="navbar-brand" href="#"><img src="img/luis_almeida_3.png"></a>
 				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,20 +48,20 @@
 				  <div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
 					 <li class="nav-item">
-						<a class="nav-link" href="#">HOME</a>
+						<a class="nav-link" href="#top">HOME</a>
 					 <!-- <a class="nav-link active" aria-current="page" href="#">HOME</a>--->
 					 </li>
 					 <li class="nav-item">
-					  <a class="nav-link" href="#">ABOUT ME</a>
+					  <a class="nav-link" href="#about">ABOUT ME</a>
 					 </li>
 					<li class="nav-item">
-					 <a class="nav-link" href="#">RESUME</a>
+					 <a class="nav-link" href="#resume">RESUME</a>
 					</li>
 					<li class="nav-item">
-					 <a class="nav-link" href="#">SERVICES</a>
+					 <a class="nav-link" href="#services">SERVICES</a>
 					</li>
 					<li class="nav-item">
-					 <a class="nav-link" href="#">CONTACT</a>
+					 <a class="nav-link" href="#contact">CONTACT</a>
 					</li>
 				<!--	<li class="nav-item">
 					 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">SERVICES</a>
@@ -73,12 +75,14 @@
 			<div class="about container" id="about">
 				<div class="row">
 				<div class="col-md-6 text-center">
-				<img src="img/user3.png" class="profile-img">
+				<img src="img/user_la_2_outra.png" class="profile-img">
 				</div>
 				<div class="col-md-6">
-					<h3>WHO AM I ?</h3>
+					<h3>Quem sou eu?</h3>
 					<p>
-					 bla bloa bloa bloaa. explicação de quem sou yolo
+						Conclui o curso de mestrado em engenharia eletrónica industrial e computadores com especialização em Controlo, Automação e Robótica e especialização em Microtecnologias. Atualmente, trabalho como engenheiro de automação no departamento "SERVICE" na empresa S.Roque.
+						Aí, descobri um gosto por realizar melhorias, aplicações e trabalhar com BDD.
+						Na busca de aprofundar e alargar os meus conhecimentos, tirei cursos online de Python, c# e HMTL,CSS. 
 					</p>
 					
 					<div class="skills-bar">
@@ -90,20 +94,20 @@
 						</div>
 						<p>C# </p>
 						<div class="progress"> 
-							<div class="progress-bar" style="width: 85%;">
-								80%
+							<div class="progress-bar" style="width: 70%;">
+								70%
 							</div>
 						</div>
 						<p>VBA </p>
 						<div class="progress"> 
-							<div class="progress-bar" style="width:75%;">
-								75%
+							<div class="progress-bar" style="width:90%;">
+								90%
 							</div>
 						</div>
 						<p>HTLM, CSS </p>
 						<div class="progress"> 
-							<div class="progress-bar" style="width: 50%;">
-								50%
+							<div class="progress-bar" style="width: 40%;">
+								40%
 							</div>
 						</div>
 	
@@ -111,67 +115,207 @@
 				</div>
 				</div>
 			</div>
+			<!--		Social Icons			  -->
+			<div class="social-icons" >
+				<ul>
+					<a href="http://linkedin.com/in/luís-almeida-424b9317b"><li><i class="fab fa-linkedin"></i></li></a>
+					<a href="https://github.com/luis94almeida"><li><i class="fab fa-github"></i></li></a>
+
+				</ul>
+			</div>
 			<!--		Resume			  -->
 			<div class="resume" id="resume">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<h3 class="text-center">My Experiences</h3>
+							<h3 class="text-center">Experiência Profissional</h3>
 							<ul class="timeline">
 								<li>
-									<h4><span>2018 - </span> a trabalhar numa fabrica e tal </h4>
-									<p>sajsajsaf.jfsajfsa <br>
-										<b> company</b> - s.rqoue <br>
-										<b> duration</b> - 1yr [2017 to 2018] <br>
-										<b> Location</b> - vila nova famalicao - pedome <br>
+									<h4><span>2019 - </span> Engenheiro de automação - Service</h4>
+									<p>Otimização de processos usando macros (VBA) e base de dados<br>
+										<b> Empresa</b> - S. Roque – Máquinas e Tecnologia Laser, S.A. <br>
+										<b> Duração</b> - 12/2019 – atualmente <br>
+										<b> Localização</b> - Vila Nova Famalicao - Oliveira Santa Maria <br>
 									</p>
 								</li>
 								<li>
-									<h4><span>2017 - </span> a trabalhar numa fabrica e tal </h4>
-									<p>sajsajsaf.jfsajfsa <br>
-										<b> company</b> - s.rqoue <br>
-										<b> duration</b> - 1yr [2017 to 2018] <br>
-										<b> Location</b> - vila nova famalicao - pedome <br>
-									</p>
-								</li>
-								<li>
-									<h4><span>2016 - </span> a trabalhar numa fabrica e tal </h4>
-									<p>sajsajsaf.jfsajfsa <br>
-										<b> company</b> - s.rqoue <br>
-										<b> duration</b> - 1yr [2017 to 2018] <br>
-										<b> Location</b> - vila nova famalicao - pedome <br>
+									<h4><span>2018 - </span> Estágio Curricular </h4>
+									<p>Execução da dissertação com o tema de “Célula Automatizada para Montagem de Quadros Brancos com Perfil de Alumínio”<br>
+										<b> Empresa</b> - RobotSol <br>
+										<b> Duração</b> - 9/2018 – 4/2019 <br>
+										<b> Localização</b> - Porto - Maia <br>
 									</p>
 								</li>
 								
 							</ul>
 						</div>
 						<div class="col-md-6">
-							<h3 class="text-center">My Education</h3>
+							<h3 class="text-center">Educação</h3>
 							<ul class="timeline">
 								<li>
-									<h4><span>2018 - </span> mestreeeeee ad aa </h4>
-									<p>sajsajsaf.jfsajfsa <br>
-										<b> Institute</b> - UM <br>
-										<b> duration</b> - 2017-2018] <br>
-										<b> aggregate </b> - 80% <br>
+									<h4><span>2019 - </span> Mestrado Integrado em Engenharia Eletrónica Industrial e Computadores (MIEEIC) </h4>
+									<p>Especialização 1 em Controlo, Automação e Robótica 
+									Especialização 2 em Microtecnologias<br>
+										<b> Instituição</b> - Universidade do Minho<br>
 									</p>
 								</li>
 								<li>
-									<h4><span>2017 - </span> çklkçl</h4>
-									<p>sajsajsaf.jfsajfsa <br>
-										<b> Institute</b> - UM <br>
-										<b> duration</b> - 2017-2018] <br>
-										<b> aggregate </b> - 80% <br>
+									<h4><span>2012 - </span> Ensino Secundário no curso Ciências e Tecnologias</h4>
+										<b> Instituição</b> - Escola Secundária Padre Benjamim Salgado<br>
 									</p>
 								</li>
 
 								
 							</ul>
 						</div>
+						
+							
+						
+					</div>
+					<div class="row">
+						<div class="col-sm-8 col-centered">
+							<h3 class="text-center">Formação Adicional</h3>
+								<ul class="timeline">
+									<li>
+										<h4><span>2020 - </span> Cursos Coursera </h4> 
+										<div class="row">
+											<div class="col-10">
+												<p>
+												-Introduction to CSS3<br>
+												-Introduction to HTML5<br>
+												-Using Python to Access Web Data<br>
+												-Python Data Structures<br>
+												-Using Databases with Python<br>
+												-Programming for Everybody (Getting Started with Python)<br>
+												-Data Structures and Design Patterns for Game Developers<br>
+												-C# Programming for Unity Game Development Capstone Project<br>
+												-Intermediate Object-Oriented Programming for Unity Games<br>
+													-More C# Programming and Unity”<br>
+													-Introduction to C# Programming and Unity</p>
+											</div>
+											<div class="col-2">
+												<p>
+													12/2020 <br>
+													11/2020 <br>
+													11/2020 <br> 
+													10/2020 <br>
+													10/2020 <br>
+													10/2020 <br>
+													8/ 2020 <br>
+													8/ 2020 <br>
+													6/ 2020 <br>
+													6/ 2020 <br>
+													5/ 2020  </p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<h4><span>2018 - </span> Ação de formação </h4> 
+										<div class="row">
+											<div class="col-10">
+												<p>-OMRON “HMI 1 – Integrated Automation”<br>
+													-OMRON “SYSMAC – Integrated Automation”</p>
+											</div>
+											<div class="col-2">
+												<p>10/2018 <br>
+												 10/2018  </p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<h4><span>2016/2018 -</span> Participação na RoboParty </h4> 
+									</li>
+									
+								
+								</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!--		Services 37:13			  -->
+			<!--		services			  -->
+			<div class="services" id="services">
+				<div class="container">
+					<h1 class="text-center">desportos ou something</h1>
+					<p class="text-center"> la lal a </p>
+					<div class="row">
+						<!--		primeiro			  -->
+						<div class="col-md-4">
+							<div class="services-box">
+								<i class="fas fa-futbol"></i>
+								
+								<span>Graphics</span>
+								 
+								<p> vamos ver se aparece </p>
+								
+							</div>
+						</div>
+						<!--		segundo			  -->
+						<div class="col-md-4">
+							<div class="services-box">
+								<i class="fas fa-futbol"></i>
+								
+								<span>Graphics</span>
+								 
+								<p> vamos ver se aparece </p>
+								
+							</div>
+						</div>
+						<!--		terceiro			  -->
+						<div class="col-md-4">
+							<div class="services-box">
+								<i class="fas fa-futbol"></i>
+								
+								<span>Graphics</span>
+								 
+								<p> vamos ver se aparece </p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--		contact			  -->
+			<div class="contact" id="contact">
+				<div class="container text-center">
+						<h1>contact me </h1> 
+						<p class="text-center">subscrobeb asa </p>
+				
+				
+					<div class="row">
+						<div class="col-md-4">
+						<i class="fas fa-phone"></i>
+						<p> 913 747 663</p>
+						</div>
+						<div class="col-md-4">
+						<i class="fas fa-envelope"></i>
+						<p> luismeida94@gmail.com</p>
+						</div>
+						<div class="col-md-4">
+						<i class="fab fa-internet-explorer"></i>
+						<p> www.dasda.com</p>
+						</div>
+					</div>
+				
+					<button type="button" class="btn btn-primary">
+						<i class="fas fa-download"></i>
+						Resume
+					</button>
+					<button type="button" class="btn btn-primary">
+						<i class="fas fa-rocket"></i>
+						Hire Me
+					</button>
+				</div>
+				
+				<div class="footer text-center">
+					<p> Made with <i class="fa fa-heart-o"></i> by me</p>
+				</div>
+				
+			</div>
 		</section>
+		<!--		Smooth Scroll			  -->
+		<script src="smooth-scroll.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
 	</body>
 </html>
