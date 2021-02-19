@@ -1,3 +1,4 @@
+
 body
 {
 	margin: 0px;
@@ -23,6 +24,10 @@ body
 	background-position:left;
 	background-size: cover;
 	background-attachment: fixed;
+}
+.texto-justify
+{
+	text-align: justify;
 }
 .user-box
 {
@@ -217,60 +222,77 @@ body
 	margin-left: auto;
 	transform: translate(-20%, 0%);
 }
-/*------  services ------*/
-.services
+/*------  hobbies ------*/
+.hobbies
 {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-.services
+.hobbies
 {
 	margin-bottom: 15px;
 }
-.services-box
+.hobbies-box
 {
 	background: #f9f9f9;
 	padding: 10px;
 	margin-top: 20px;
 	border-top-right-radius: 50px;
-	border-bottom-left-radius: 50 px;
+	border-bottom-left-radius: 50px;
+	text-align: center;
+
 }
-.services-box .fa
+.hobbies-box .fas
 {
-	margin: 0 10px;
-	font-size: 20px;
+	margin: 0 10px;  
+	font-size: 100px;
+	/*------vertical-align: middle; ------*/  
+	display: inline-block;
+	position:relative;
+	top: 25px;
 }
-.services-box span
+
+.text-box p
 {
-	margin: 3px;
-	font-size: 20px;
-	font-weight: bold;
-}
-.services-box p
-{
+	visibility: hidden;
 	font-size: 15px;	
 	margin-top: 20px;
 	color: #777;
 }
-.services-box:hover
+
+.hobbies-box:hover
 {
 	background: #000;
 	color: #fff;
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 0;
 	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+	border-bottom-right-radius: 50px; 
 	transition: 1s;
+
 }
-.services-box:hover p
+.hobbies-box:hover .position-icon
 {
+	position:relative;
+	top: -10px;
+}
+/*------ 
+.position-icon:hover 
+ {
+	position:relative;
+	top: -10px;
+ }
+ -----*/
+.hobbies-box:hover p
+{
+	visibility: visible;
 	color: #fff;
 }
 /*------  contact ------*/
 .contact
 {
 	padding-top: 50px;
-	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/teste1.jpg);
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(img/fundo_2.jpg);
 	background-position:center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -281,16 +303,17 @@ body
 	padding: 30px 0;
 	font-size: 22px;
 }
-.contact .col-md-4 .fas
+.contact .col-md-6 .fas
 {
 	padding: 10px;
 	font-size: 40px;
 }
-.contact .col-md-4 .fab
+.contact .col-md-6 .fab
 {
 	padding: 10px;
 	font-size: 40px;
 }
+
 .contact .btn
 {
 	padding: 10px 25px 10px 25px;
