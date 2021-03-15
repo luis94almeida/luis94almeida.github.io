@@ -379,3 +379,12 @@ body
 	width: 80px;
 	transition: 1s;
 }
+.fa-linkedin:before
+{
+	color: #FFF;
+}
+
+.fa-github:before
+{
+	color: #FFF;
+}
