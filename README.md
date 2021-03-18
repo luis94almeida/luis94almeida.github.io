@@ -1,5 +1,5 @@
 # luis94almeida.github.io
-CV
+Curriculum
 
 Tools used:
 
